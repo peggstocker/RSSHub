@@ -44,11 +44,11 @@ importers:
         specifier: 6.12.3
         version: 6.12.3
       '@hono/node-server':
-        specifier: 1.19.12
-        version: 1.19.12(hono@4.12.11)
+        specifier: 1.19.13
+        version: 1.19.13(hono@4.12.12)
       '@hono/zod-openapi':
         specifier: 1.2.4
-        version: 1.2.4(hono@4.12.11)(zod@4.3.6)
+        version: 1.2.4(hono@4.12.12)(zod@4.3.6)
       '@jocmp/mercury-parser':
         specifier: 3.0.7
         version: 3.0.7
@@ -81,7 +81,7 @@ importers:
         version: 0.0.25
       '@scalar/hono-api-reference':
         specifier: 0.10.6
-        version: 0.10.6(hono@4.12.11)
+        version: 0.10.6(hono@4.12.12)
       '@sentry/node':
         specifier: 10.47.0
         version: 10.47.0(@opentelemetry/exporter-trace-otlp-http@0.214.0(@opentelemetry/api@1.9.1))
@@ -134,8 +134,8 @@ importers:
         specifier: 2.1.82
         version: 2.1.82
       hono:
-        specifier: 4.12.11
-        version: 4.12.11
+        specifier: 4.12.12
+        version: 4.12.12
       html-to-text:
         specifier: 9.0.5
         version: 9.0.5
@@ -161,8 +161,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0
       jsdom:
-        specifier: 29.0.1
-        version: 29.0.1(@noble/hashes@2.0.1)
+        specifier: 29.0.2
+        version: 29.0.2(@noble/hashes@2.0.1)
       json-bigint:
         specifier: 1.0.0
         version: 1.0.0
@@ -173,8 +173,8 @@ importers:
         specifier: 11.1.1
         version: 11.1.1
       lru-cache:
-        specifier: 11.3.0
-        version: 11.3.0
+        specifier: 11.3.2
+        version: 11.3.2
       lz-string:
         specifier: 1.5.0
         version: 1.5.0
@@ -300,8 +300,8 @@ importers:
         specifier: 4.3.1
         version: 4.3.1
       '@cloudflare/containers':
-        specifier: 0.2.2
-        version: 0.2.2
+        specifier: 0.2.3
+        version: 0.2.3
       '@cloudflare/puppeteer':
         specifier: 1.0.6
         version: 1.0.6(bufferutil@4.1.0)(utf-8-validate@5.0.10)
@@ -379,7 +379,7 @@ importers:
         version: 1.5.0(rollup@4.60.1)
       '@vitest/coverage-v8':
         specifier: 4.0.9
-        version: 4.0.9(vitest@4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.1(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3))
+        version: 4.0.9(vitest@4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.2(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3))
       discord-api-types:
         specifier: 0.38.44
         version: 0.38.44
@@ -466,7 +466,7 @@ importers:
         version: 6.1.1(typescript@5.9.3)(vite@7.3.1(@types/node@25.5.2)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3))
       vitest:
         specifier: 4.0.9
-        version: 4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.1(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3)
+        version: 4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.2(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3)
       wrangler:
         specifier: 4.80.0
         version: 4.80.0(@cloudflare/workers-types@4.20260405.1)(bufferutil@4.1.0)(utf-8-validate@5.0.10)
@@ -494,12 +494,12 @@ packages:
   '@actions/io@3.0.2':
     resolution: {integrity: sha512-nRBchcMM+QK1pdjO7/idu86rbJI5YHUKCvKs0KxnSYbVe3F51UfGxuZX4Qy/fWlp6l7gWFwIkrOzN+oUK03kfw==}
 
-  '@asamuzakjp/css-color@5.1.1':
-    resolution: {integrity: sha512-iGWN8E45Ws0XWx3D44Q1t6vX2LqhCKcwfmwBYCDsFrYFS6m4q/Ks61L2veETaLv+ckDC6+dTETJoaAAb7VjLiw==}
+  '@asamuzakjp/css-color@5.1.6':
+    resolution: {integrity: sha512-BXWCh8dHs9GOfpo/fWGDJtDmleta2VePN9rn6WQt3GjEbxzutVF4t0x2pmH+7dbMCLtuv3MlwqRsAuxlzFXqFg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
 
-  '@asamuzakjp/dom-selector@7.0.4':
-    resolution: {integrity: sha512-jXR6x4AcT3eIrS2fSNAwJpwirOkGcd+E7F7CP3zjdTqz9B/2huHOL8YJZBgekKwLML+u7qB/6P1LXQuMScsx0w==}
+  '@asamuzakjp/dom-selector@7.0.7':
+    resolution: {integrity: sha512-d2BgqDUOS1Hfp4IzKUZqCNz+Kg3Y88AkaBvJK/ZVSQPU1f7OpPNi7nQTH6/oI47Dkdg+Z3e8Yp6ynOu4UMINAQ==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
 
   '@asamuzakjp/nwsapi@2.3.9':
@@ -588,8 +588,8 @@ packages:
   '@bufbuild/protobuf@2.11.0':
     resolution: {integrity: sha512-sBXGT13cpmPR5BMgHE6UEEfEaShh5Ror6rfN3yEK5si7QVrtZg8LEPQb0VVhiLRUslD2yLnXtnRzG035J/mZXQ==}
 
-  '@cloudflare/containers@0.2.2':
-    resolution: {integrity: sha512-cfTSd7M96Z9NeCiaN4i3FuMb+i2Nzi0HbMuxvMAnUmkXwtWIZCQ3XLqUWQkdCKWNJZ/3BLMInC6ntFvpbTWIpA==}
+  '@cloudflare/containers@0.2.3':
+    resolution: {integrity: sha512-LPPVLwmXQb8Q61r0v5IDM02ZQESRYzlrVHIe9vUoqvowBmYRBARCJi6GjUsW5/zCue/YRkcMBIiIoNCOWfH8TA==}
 
   '@cloudflare/kv-asset-handler@0.4.2':
     resolution: {integrity: sha512-SIOD2DxrRRwQ+jgzlXCqoEFiKOFqaPjhnNTGKXSRLvp1HiOvapLaFG2kEr9dYQTYe8rKrd9uvDUzmAITeNyaHQ==}
@@ -1256,8 +1256,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  '@hono/node-server@1.19.12':
-    resolution: {integrity: sha512-txsUW4SQ1iilgE0l9/e9VQWmELXifEFvmdA1j6WFh/aFPj99hIntrSsq/if0UWyGVkmrRPKA1wCeP+UCr1B9Uw==}
+  '@hono/node-server@1.19.13':
+    resolution: {integrity: sha512-TsQLe4i2gvoTtrHje625ngThGBySOgSK3Xo2XRYOdqGN1teR8+I7vchQC46uLJi8OF62YTYA3AhSpumtkhsaKQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: ^4
@@ -4236,8 +4236,8 @@ packages:
   hmacsha1@1.0.0:
     resolution: {integrity: sha512-4FP6J0oI8jqb6gLLl9tSwVdosWJ/AKSGJ+HwYf6Ixe4MUcEkst4uWzpVQrNOCin0fzTRQbXV8ePheU8WiiDYBw==}
 
-  hono@4.12.11:
-    resolution: {integrity: sha512-r4xbIa3mGGGoH9nN4A14DOg2wx7y2oQyJEb5O57C/xzETG/qx4c7CVDQ5WMeKHZ7ORk2W0hZ/sQKXTav3cmYBA==}
+  hono@4.12.12:
+    resolution: {integrity: sha512-p1JfQMKaceuCbpJKAPKVqyqviZdS0eUxH9v82oWo1kb9xjQ5wA6iP3FNVAPDFlz5/p7d45lO+BpSk1tuSZMF4Q==}
     engines: {node: '>=16.9.0'}
 
   hookable@6.1.0:
@@ -4534,8 +4534,8 @@ packages:
   jsbn@0.1.1:
     resolution: {integrity: sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==}
 
-  jsdom@29.0.1:
-    resolution: {integrity: sha512-z6JOK5gRO7aMybVq/y/MlIpKh8JIi68FBKMUtKkK2KH/wMSRlCxQ682d08LB9fYXplyY/UXG8P4XXTScmdjApg==}
+  jsdom@29.0.2:
+    resolution: {integrity: sha512-9VnGEBosc/ZpwyOsJBCQ/3I5p7Q5ngOY14a9bf5btenAORmZfDse1ZEheMiWcJ3h81+Fv7HmJFdS0szo/waF2w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     peerDependencies:
       canvas: ^3.0.0
@@ -4686,8 +4686,8 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lru-cache@11.3.0:
-    resolution: {integrity: sha512-sr8xPKE25m6vJVcrdn6NxtC0fVfuPowbscLypegRgOm0yXSqr5JNHCAY3hnusdJ7HRBW04j6Ip4khvHU778DuQ==}
+  lru-cache@11.3.2:
+    resolution: {integrity: sha512-wgWa6FWQ3QRRJbIjbsldRJZxdxYngT/dO0I5Ynmlnin8qy7tC6xYzbcJjtN4wHLXtkbVwHzk0C+OejVw1XM+DQ==}
     engines: {node: 20 || >=22}
 
   lru-cache@7.18.3:
@@ -6449,21 +6449,19 @@ snapshots:
 
   '@actions/io@3.0.2': {}
 
-  '@asamuzakjp/css-color@5.1.1':
+  '@asamuzakjp/css-color@5.1.6':
     dependencies:
       '@csstools/css-calc': 3.1.1(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-color-parser': 4.0.2(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-tokenizer': 4.0.0
-      lru-cache: 11.3.0
 
-  '@asamuzakjp/dom-selector@7.0.4':
+  '@asamuzakjp/dom-selector@7.0.7':
     dependencies:
       '@asamuzakjp/nwsapi': 2.3.9
       bidi-js: 1.0.3
       css-tree: 3.2.1
       is-potential-custom-element-name: 1.0.1
-      lru-cache: 11.3.0
 
   '@asamuzakjp/nwsapi@2.3.9': {}
 
@@ -6559,7 +6557,7 @@ snapshots:
 
   '@bufbuild/protobuf@2.11.0': {}
 
-  '@cloudflare/containers@0.2.2': {}
+  '@cloudflare/containers@0.2.3': {}
 
   '@cloudflare/kv-asset-handler@0.4.2': {}
 
@@ -6985,21 +6983,21 @@ snapshots:
       '@types/aws-lambda': 8.10.161
       '@types/express': 5.0.6
 
-  '@hono/node-server@1.19.12(hono@4.12.11)':
+  '@hono/node-server@1.19.13(hono@4.12.12)':
     dependencies:
-      hono: 4.12.11
+      hono: 4.12.12
 
-  '@hono/zod-openapi@1.2.4(hono@4.12.11)(zod@4.3.6)':
+  '@hono/zod-openapi@1.2.4(hono@4.12.12)(zod@4.3.6)':
     dependencies:
       '@asteasolutions/zod-to-openapi': 8.5.0(zod@4.3.6)
-      '@hono/zod-validator': 0.7.6(hono@4.12.11)(zod@4.3.6)
-      hono: 4.12.11
+      '@hono/zod-validator': 0.7.6(hono@4.12.12)(zod@4.3.6)
+      hono: 4.12.12
       openapi3-ts: 4.5.0
       zod: 4.3.6
 
-  '@hono/zod-validator@0.7.6(hono@4.12.11)(zod@4.3.6)':
+  '@hono/zod-validator@0.7.6(hono@4.12.12)(zod@4.3.6)':
     dependencies:
-      hono: 4.12.11
+      hono: 4.12.12
       zod: 4.3.6
 
   '@humanfs/core@0.19.1': {}
@@ -8089,10 +8087,10 @@ snapshots:
 
   '@scalar/helpers@0.4.3': {}
 
-  '@scalar/hono-api-reference@0.10.6(hono@4.12.11)':
+  '@scalar/hono-api-reference@0.10.6(hono@4.12.12)':
     dependencies:
       '@scalar/core': 0.4.6
-      hono: 4.12.11
+      hono: 4.12.12
 
   '@scalar/types@0.7.6':
     dependencies:
@@ -8556,7 +8554,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vitest/coverage-v8@4.0.9(vitest@4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.1(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3))':
+  '@vitest/coverage-v8@4.0.9(vitest@4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.2(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3))':
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@vitest/utils': 4.0.9
@@ -8569,7 +8567,7 @@ snapshots:
       magicast: 0.5.2
       std-env: 3.10.0
       tinyrainbow: 3.1.0
-      vitest: 4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.1(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3)
+      vitest: 4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.2(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -9941,7 +9939,7 @@ snapshots:
 
   hmacsha1@1.0.0: {}
 
-  hono@4.12.11: {}
+  hono@4.12.12: {}
 
   hookable@6.1.0: {}
 
@@ -10260,10 +10258,10 @@ snapshots:
 
   jsbn@0.1.1: {}
 
-  jsdom@29.0.1(@noble/hashes@2.0.1):
+  jsdom@29.0.2(@noble/hashes@2.0.1):
     dependencies:
-      '@asamuzakjp/css-color': 5.1.1
-      '@asamuzakjp/dom-selector': 7.0.4
+      '@asamuzakjp/css-color': 5.1.6
+      '@asamuzakjp/dom-selector': 7.0.7
       '@bramus/specificity': 2.4.2
       '@csstools/css-syntax-patches-for-csstree': 1.1.2(css-tree@3.2.1)
       '@exodus/bytes': 1.15.0(@noble/hashes@2.0.1)
@@ -10272,7 +10270,7 @@ snapshots:
       decimal.js: 10.6.0
       html-encoding-sniffer: 6.0.0(@noble/hashes@2.0.1)
       is-potential-custom-element-name: 1.0.1
-      lru-cache: 11.3.0
+      lru-cache: 11.3.2
       parse5: 8.0.0
       saxes: 6.0.0
       symbol-tree: 3.2.4
@@ -10445,7 +10443,7 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  lru-cache@11.3.0: {}
+  lru-cache@11.3.2: {}
 
   lru-cache@7.18.3: {}
 
@@ -11081,7 +11079,7 @@ snapshots:
 
   path-scurry@2.0.2:
     dependencies:
-      lru-cache: 11.3.0
+      lru-cache: 11.3.2
       minipass: 7.1.3
 
   path-to-regexp@6.3.0: {}
@@ -12194,7 +12192,7 @@ snapshots:
       tsx: 4.21.0
       yaml: 2.8.3
 
-  vitest@4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.1(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3):
+  vitest@4.0.9(@edge-runtime/vm@3.2.0)(@types/debug@4.1.13)(@types/node@25.5.2)(jiti@2.6.1)(jsdom@29.0.2(@noble/hashes@2.0.1))(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(tsx@4.21.0)(yaml@2.8.3):
     dependencies:
       '@vitest/expect': 4.0.9
       '@vitest/mocker': 4.0.9(msw@2.12.14(@types/node@25.5.2)(typescript@5.9.3))(vite@7.3.1(@types/node@25.5.2)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3))
@@ -12220,7 +12218,7 @@ snapshots:
       '@edge-runtime/vm': 3.2.0
       '@types/debug': 4.1.13
       '@types/node': 25.5.2
-      jsdom: 29.0.1(@noble/hashes@2.0.1)
+      jsdom: 29.0.2(@noble/hashes@2.0.1)
     transitivePeerDependencies:
       - jiti
       - less
